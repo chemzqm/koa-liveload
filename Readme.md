@@ -7,6 +7,8 @@ when any resource file get changed the browser will be notified to reload, css f
 
 **note**, this middleware is disabled on `test` nad `production` environment.
 
+Added folder and file will be watched for changes automatically.
+
 ## Install
 
     $ npm install koa-liveload
