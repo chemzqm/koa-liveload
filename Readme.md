@@ -15,6 +15,7 @@ when any resource file get changed the browser will be notified to reload, css f
 
 ``` js
 var koa = require('koa');
+var liveload = require('koa-liveload');
 var koa_static = require('koa-static');
 
 var app = koa();
