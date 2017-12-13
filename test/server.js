@@ -3,10 +3,10 @@ var koa_static = require('koa-static');
 var compress = require('koa-compress');
 var liveload = require('..');
 
-var app = koa();
+var app = new koa();
 
-app.use(function* (next) {
-  yield next;
+app.use(async (ctx, next) => {
+  await next();
 })
 app.use(compress());
 app.use(liveload(__dirname));
