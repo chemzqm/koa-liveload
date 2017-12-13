@@ -18,7 +18,7 @@
   "homepage": "https://github.com/chemzqm/koa-liveload",
   "dependencies": {
     "debug": "^3.1.0",
-    "growl": "^1.10.3",
+    "growl": "~1.7.0",
     "tiny-lr": "^1.0.5",
     "watch": "^1.0.2"
   },
